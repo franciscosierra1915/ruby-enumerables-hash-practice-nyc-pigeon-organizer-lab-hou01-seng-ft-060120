@@ -7,7 +7,6 @@ def nyc_pigeon_organizer(data)
       pigeon_names[name] ||= {}
       pigeon_names[name][three_little_hashes] ||= []
       pigeon_names[name][three_little_hashes] << value_keys.to_s
-      
     end 
 end 
 end
